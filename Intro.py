@@ -38,8 +38,15 @@ print(new_message) # prints Hello Pyhton
 # Concat strings
 
 greeting ='hello'
-name= 'Uttam'
+name= 'uttam'
 concat_str = greeting +' ' + name +'. Welcome!' # normal way to concat strings
 print(concat_str)
 formatted_str = '{},{}. Welcome!'.format(greeting, name) # using formatted string , count curly parantesis = count of input params
 print(formatted_str)
+
+# concat using FStrings
+fstr = f'{greeting},{name}. Welcome!';
+print(fstr)
+fstr_format = f'{greeting.upper()},{name.upper()}. Welcome!';
+print(fstr_format)
+

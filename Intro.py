@@ -50,3 +50,6 @@ print(fstr)
 fstr_format = f'{greeting.upper()},{name.upper()}. Welcome!';
 print(fstr_format)
 
+# Dir() function will show all methods/properties around input param
+
+print (dir(name))
